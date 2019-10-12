@@ -13,9 +13,26 @@ const fs = require('fs');
 // // })
 // // }})
 
-fs.rename('example.txt', 'newfile.txt', (err) => {if (err) {
+// fs.rename('example.txt', 'newfile.txt', (err) => {if (err) {
+//     console.log(err);}
+// else {
+// console.log('renamed!');
+// }
+// })
+
+// fs.appendFile('newfile.txt', 'here is some info', (err)=> {
+// if(err) {
+//     console.log(err);
+
+// }
+// else {
+//         console.log("data added");
+// }
+// })
+
+fs.unlink('newfile.txt', (err)=> {if(err) {
     console.log(err);}
-else {
-console.log('renamed!');
-}
-})
+    else {
+        console.log('deleted file');
+    }
+});
