@@ -6,4 +6,5 @@ stream.on('data', (chunk)=> {
 writes.write(chunk);
 });
 
+stream.pipe(writes);
 
