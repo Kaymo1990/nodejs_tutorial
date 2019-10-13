@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kaymo1990/nodejs_tutorial/issues"
   },
-  "homepage": "https://github.com/Kaymo1990/nodejs_tutorial#readme"
+  "homepage": "https://github.com/Kaymo1990/nodejs_tutorial#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
